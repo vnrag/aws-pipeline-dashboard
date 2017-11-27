@@ -109,7 +109,7 @@ Resources:
       FunctionName: pipeline-dashboard-generator
       Description: Build CloudWatch dashboard from CloudWatch metrics
       Handler: index.generateDashboard
-      Runtime: nodejs6.10
+      Runtime: python3.6
       CodeUri: ./app
       Timeout: 60
       Role: !GetAtt DashboardGeneratorRole.Arn
