@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2016-10-31'
-Description: 'Create 3m-pipeline-dashboard application.'
+Description: 'Create aws-pipeline-dashboard application.'
 Resources:
   EventHandlerRole:
     Type: AWS::IAM::Role
