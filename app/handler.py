@@ -45,10 +45,6 @@ def pipeline_event(event, context):
         if state == "SUCCEEDED":
             append_metric(metric_data, "SuccessCount", event, count=1)
 
-            #if event['detail']['category'] == "Approval":
-            #    append_metric(metric_data, "WaitTime", event, seconds=duration)
-            #else:
-            #    append_metric(metric_data, "LeadTime", event, seconds=duration)
         elif state == "FAILED":
             append_metric(metric_data, "FailureCount", event, count=1)
 
@@ -205,4 +201,3 @@ def dashboard_event(event, context):
 
 if __name__ == '__main__':
     dashboard_event(None, None)
-
