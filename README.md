@@ -9,14 +9,14 @@ As seen in the diagram below, a Lambda function is triggered from a CloudWatch E
 ![Deployment](docs/deployment.png)
 
 # Prerequisites
-You must have an S3 bucket available for staging the Lambda function.   You can create one with:
+You must have an S3 bucket available for staging the Lambda function.   You can create one with (bucket-name with prefix s3://):
 
 ```
 aws s3 mb <bucket-name>
 ```
 
 # Deploying
-To deploy in your own account, run:
+To deploy in your own account, run (bucket-name without prefix s3://):
 
 ```
 make deploy BUCKET_NAME=<bucket-name>
