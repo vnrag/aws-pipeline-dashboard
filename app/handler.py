@@ -169,7 +169,7 @@ def generate_dashboard(client):
                     [ ".", "RedTime", ".", ".", { "stat": "Sum", "period": 2592000, "yAxis": "left", "color": "#d62728" } ],
                     [ ".", "GreenTime", ".", ".", { "period": 2592000, "stat": "Sum", "color": "#2ca02c" } ]
                 ],
-                "region": "us-east-1",
+                "region": "eu-central-1",
                 "title": pipeline_name,
                 "period": 300
             }
