@@ -1,6 +1,6 @@
-REGION := us-east-1
-BUCKET_NAME := 3m-pipeline-dashboard
-STACK_NAME := pipeline-dashboard
+REGION := ea-central-1
+BUCKET_NAME := vnr-pipeline-dashboard
+STACK_NAME := tools-pipeline-dashboard
 
 help:
 	@echo "Targets:"
