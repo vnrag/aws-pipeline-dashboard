@@ -1,4 +1,4 @@
-REGION := ea-central-1
+REGION := eu-central-1
 BUCKET_NAME := vnr-pipeline-dashboard
 STACK_NAME := tools-pipeline-dashboard
 
