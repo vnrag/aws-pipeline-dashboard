@@ -12,7 +12,7 @@ As seen in the diagram below, a Lambda function is triggered from a CloudWatch E
 You must have an S3 bucket available for staging the Lambda function.   You can create one with (bucket-name with prefix s3://):
 
 ```
-aws s3 mb <bucket-name>
+aws s3 mb s3://<bucket-name>
 ```
 
 # Deploying
